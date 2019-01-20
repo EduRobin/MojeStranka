@@ -1,0 +1,182 @@
+header {
+    
+    height:200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.main-nav li {
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    border: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+
+.main-nav li:hover {
+    background-color: orange;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+   
+    
+}
+
+.row {
+    margin: auto;
+}
+
+body {
+    font-family: monospace;
+    background-image: url(lul.jpg);
+    margin: auto;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 50px;
+    color: orange;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 0 aqua, 0 1px aqua, 1px 0 aqua, 0 -1px aqua;
+    
+}
+
+h2 {
+    color: orange;
+    font-size: 40px;
+}
+
+h3 {
+    color: orange;
+    font-size: 30px;
+}
+
+
+
+#post-container {
+margin-top: 0px;
+}
+
+#container {
+    position: relative;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: auto;
+    
+}
+ 
+#content_container {
+    
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid #171b1e;
+    
+}
+
+
+
+#main_blog {
+    width: auto;
+    margin: 12px 0 0 43px;
+    min-height: 780px;
+    float: center;
+    position: center;
+    padding: 0 34px 0 0;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+    display: table;
+    
+}
+
+ .cenik {
+    font-weight: bold;
+    color: white;
+    border-top: 2px solid #fab907;
+    border-bottom: 2px solid #fab907;
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    box-shadow: 0 0 10px  red;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    
+}
+
+td {
+    font-size: 20px;
+}
+
+th {
+    font-size: 20px;
+}
+
+strong {
+    color: aqua;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 800px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    th {
+        font-size: 25px;
+    }
+
+    td {
+        font-size: 25px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
+
